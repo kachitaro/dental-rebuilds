@@ -1,0 +1,28 @@
+{
+  "name": "@dental-rebuilds/universal-dental",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Portfolio rebuild of the Universal Dental website design (Techbee Solutions, 2022).",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start -p 3001"
+  },
+  "dependencies": {
+    "@fontsource-variable/dancing-script": "^5.2.5",
+    "@fontsource-variable/mulish": "^5.2.5",
+    "@fontsource/noto-serif": "^5.2.5",
+    "lucide-react": "^1.31.0",
+    "next": "16.3.1",
+    "react": "19.2.8",
+    "react-dom": "19.2.8"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4",
+    "typescript": "^6.0.2"
+  }
+}

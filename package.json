@@ -1,0 +1,14 @@
+{
+  "name": "dental-rebuilds",
+  "private": true,
+  "description": "Portfolio rebuilds of two dental clinic website designs from my time at Techbee Solutions (2022).",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:universal": "bun run --filter @dental-rebuilds/universal-dental dev",
+    "dev:provo": "bun run --filter @dental-rebuilds/provo-pediatric dev",
+    "dev": "bun run --filter '*' dev",
+    "build": "bun run --filter '*' build"
+  }
+}

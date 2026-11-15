@@ -1,0 +1,64 @@
+@import "tailwindcss";
+@import "@fontsource-variable/mulish/index.css";
+@import "@fontsource-variable/mulish/wght-italic.css";
+@import "@fontsource/noto-serif/400.css";
+@import "@fontsource-variable/dancing-script/index.css";
+
+/* Tokens taken from the Adobe XD file (Dr. Muazz layout.xd). */
+@theme {
+  --color-navy: #23406e;
+  --color-blue: #3176ac;
+  --color-sky: #448ec7;
+  --color-midnight: #162d52;
+  --color-ink: #303030;
+  --color-body: #505050;
+  --color-muted: #606060;
+  --color-paper: #f1eff0;
+  --color-line: #cbcbcb;
+  --color-card-line: #a9cbe5;
+
+  --font-sans: "Mulish Variable", system-ui, sans-serif;
+  --font-serif: "Noto Serif", Georgia, serif;
+  --font-script: "Dancing Script Variable", cursive;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white font-sans text-body antialiased;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-sky);
+    outline-offset: 3px;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply mx-auto w-full max-w-[1084px] px-5 lg:px-0;
+  }
+  .heading-serif {
+    @apply font-serif font-normal text-navy;
+    line-height: 1.15;
+  }
+  .eyebrow-tracked {
+    letter-spacing: 0.15em;
+  }
+  .bg-stars-navy {
+    background: #1e3254 url("/images/bg-stars-navy.webp") center / cover;
+  }
+  .bg-stars-blue {
+    background: #4f7fb5 url("/images/bg-stars-blue.webp") center / cover;
+  }
+  .bg-pattern-light {
+    background: var(--color-paper) url("/images/bg-pattern-light.webp") center / cover;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
