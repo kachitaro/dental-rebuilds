@@ -1,9 +1,9 @@
 export const clinic = {
   name: 'Universal Dental',
-  phone: '(877) 237-3636',
-  phoneHref: 'tel:+18772373636',
-  fax: '(877) 237-3636',
-  email: 'zendakidental@gmail.com',
+  phone: '(877) 555-0123',
+  phoneHref: 'tel:+18775550123',
+  fax: '(877) 555-0124',
+  email: 'hello@universaldental.example',
   address: ['9950 Irvine Center Dr', 'Irvine, CA, 92618'],
   directionsUrl: 'https://www.google.com/maps/search/?api=1&query=9950+Irvine+Center+Dr+Irvine+CA+92618',
   hours: [

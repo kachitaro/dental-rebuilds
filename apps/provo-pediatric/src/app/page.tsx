@@ -155,8 +155,8 @@ export default function HomePage() {
               excellent level of service for all your child’s oral health needs. We place great effort into delivering
               service that is reliable and trustworthy to help your child achieve an outstanding smile. If you would
               like to learn more about our dental office in Provo, Utah, we welcome you to contact us today at{' '}
-              <a href="tel:+18013734200" className="font-semibold text-teal underline">
-                801-373-4200
+              <a href="tel:+18015550142" className="font-semibold text-teal underline">
+                801-555-0142
               </a>{' '}
               and set up an appointment with our pediatric dentists!
             </p>
@@ -289,12 +289,12 @@ export default function HomePage() {
                 <path d="M0 30V17Q0 5 12 0l3 4Q8 8 8 15h8v15zm22 0V17q0-12 12-17l3 4q-7 4-7 11h8v15z" />
               </svg>
               <blockquote className="mt-4 text-[17px] leading-7 italic">
-                I have taken both of my children to Provo Pediatric’s for 13 years. We have never had a bad experience.
-                Dr Markham and Dr Lund are both amazing with children. They do great work and are 100% trustworthy!
+                Our kids actually look forward to their checkups now. The whole team is patient, explains every step,
+                and makes each visit feel easy. Highly recommend!
                 😊😊😊
               </blockquote>
               <figcaption className="mt-5 flex items-center justify-between text-[18px] font-medium">
-                ━ Jenny F.
+                ━ Sample Parent
                 <span className="flex gap-4 text-ink/70" aria-hidden>
                   <ArrowLeft className="h-6 w-6" />
                   <ArrowRight className="h-6 w-6" />

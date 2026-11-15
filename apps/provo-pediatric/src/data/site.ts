@@ -1,4 +1,4 @@
-export const phone = { label: '801-373-4200', href: 'tel:+18013734200' };
+export const phone = { label: '801-555-0142', href: 'tel:+18015550142' };
 
 export const locations = [
   {
@@ -7,8 +7,8 @@ export const locations = [
     tone: 'text-blue',
     pin: 'fill-blue',
     address: ['745 North 500 West, Ste. 103', 'Provo, UT 84601'],
-    phone: '801-373-4200',
-    phoneHref: 'tel:+18013734200',
+    phone: '801-555-0142',
+    phoneHref: 'tel:+18015550142',
     map: '/images/map-provo.webp',
     mapsUrl: 'https://www.google.com/maps/search/?api=1&query=745+North+500+West+Ste+103+Provo+UT+84601',
     hours: ['Mon & Tue  //  7:00am - 5:00pm', 'Wed  //  8:00am - 5:00pm', 'Thu  //  7:00am - 5:00pm', 'Fri  //  7:00am - 2:00pm', 'Sat & Sun  //  Closed!'],
@@ -19,8 +19,8 @@ export const locations = [
     tone: 'text-[#b49854]',
     pin: 'fill-[#b49854]',
     address: ['391 North 400 East', 'Price, UT 84501'],
-    phone: '435-637-9590',
-    phoneHref: 'tel:+14356379590',
+    phone: '435-555-0178',
+    phoneHref: 'tel:+14355550178',
     map: '/images/map-price.webp',
     mapsUrl: 'https://www.google.com/maps/search/?api=1&query=391+North+400+East+Price+UT+84501',
     hours: ['Mon & Tue  //  8:00am - 5:00pm', 'Wed & Thu  //  Admin hours', 'Fri  //  8:00am - 5:00pm', 'Sat - Sun  //  Closed!'],

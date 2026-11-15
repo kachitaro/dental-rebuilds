@@ -36,7 +36,7 @@ bun run dev
 
 - Where the design had lorem ipsum (service highlights, news excerpts), the text was
   replaced with short lines adapted from the design's own copy.
-- The design's crowns page shows a different phone number (281-645-4205) in the side card;
-  the rebuild uses the practice number shown everywhere else (801-373-4200).
+- Phone numbers (555-01xx) and the testimonial are placeholders; real contact details and
+  patient reviews from the design were not used.
 - Decorative illustrations (sea creatures, icons, sidebar collage) were rendered from the
   XD vectors to PNG/WebP.

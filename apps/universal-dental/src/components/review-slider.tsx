@@ -4,15 +4,15 @@ import React from 'react';
 
 const reviews = [
   {
-    name: 'Elizabeth B.',
-    text: 'I am so happy with the great service at Universal Dental. This is my second treatment with Dr. Muazz, and I recommend him to all my friends and family. I am excited to see the final results and trust that Dr. Muazz will do an excellent job. Thank you 😊',
+    name: 'Sample Patient A',
+    text: 'Friendly staff, a calm office and a clear plan from the first visit. Every step of my treatment was explained before it started, and the results look great.',
   },
   {
-    name: 'Dorothy',
-    text: 'What has impressed me the most in the 4 years I have been visiting this dentist is how they take the time to explain and really care about patient outcomes and satisfaction. Dr. Muazz was very professional and thorough.',
+    name: 'Sample Patient B',
+    text: 'The team takes the time to answer questions and never rushes you. I always leave feeling well cared for.',
   },
 ];
-// Both quotes are copied from the XD design; no review text is invented for the rebuild.
+// Placeholder reviews written for the portfolio rebuild; real patient names and quotes from the design were removed.
 
 export function ReviewSlider() {
   const [index, setIndex] = React.useState(0);

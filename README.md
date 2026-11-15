@@ -2,7 +2,7 @@
 
 Front-end rebuilds of two dental clinic website designs from my time at Techbee Solutions
 (2022), made for my portfolio. Neither is the clinic's official website, and the forms do
-not send anything.
+not send anything. Phone numbers, emails and patient reviews are placeholders.
 
 | App | Clinic | Pages | Dev port |
 | --- | --- | --- | --- |

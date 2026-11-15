@@ -30,12 +30,12 @@ const general = [
 ];
 
 const testimonials = [
-  { name: 'Dorothy', image: '/images/review-video.webp' },
-  { name: 'Linda', image: '/images/review-video-2.webp' },
-  { name: 'Martin', image: '/images/review-video-3.webp' },
+  { name: 'Sample Patient A', image: '/images/review-video.webp' },
+  { name: 'Sample Patient B', image: '/images/review-video-2.webp' },
+  { name: 'Sample Patient C', image: '/images/review-video-3.webp' },
 ];
 const testimonialText =
-  '“What has impressed me the most in the 4 years I have been visiting this dentist is how they take the time to explain and really care about patient outcomes and satisfaction. Dr. Muazz was very professional and thorough.”';
+  '“The team takes the time to explain every option and genuinely cares about how you feel after treatment. Professional, thorough and kind.”';
 
 function Bullet({ dark = false }: { dark?: boolean }) {
   return (

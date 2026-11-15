@@ -31,3 +31,9 @@ images were exported from the file's resources and converted to WebP.
 bun install   # or npm install
 bun run dev
 ```
+
+## Notes on content
+
+- Phone, fax (555-01xx) and email (`.example` domain) are placeholders, and the reviews use
+  sample names and rewritten text; real contact details and patient reviews from the design
+  were not used.
